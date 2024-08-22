@@ -55,6 +55,10 @@ def generate_image(text: str, file_path: str):
     color1 = random_tropical_color()
     color2 = random_tropical_color()
 
+    # Ensure color2 is different from color1
+    while color1 == color2:
+        color2 = random_tropical_color()
+
     # Convert colors to RGB
     rgb1 = hex_to_rgb(color1)
     rgb2 = hex_to_rgb(color2)
