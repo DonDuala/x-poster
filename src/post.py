@@ -33,7 +33,7 @@ quotes = [
 # Function to generate a random tropical color
 def random_tropical_color():
     tropical_colors = [
-        "#FF6F62",  # Coral
+        "#FF6F61",  # Coral
         "#FFB347",  # Peach
         "#FFDA77",  # Lemon
         "#6B5B95",  # Blueberry
