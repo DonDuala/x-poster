@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional yarn cache directory
+.yarn
+
+# Environment files
+.env
+
+#Uploads
+data/
+
+# Ignore the image file
+quote_image.png
+
+# Ignore the virtual environment folder
+myenv/
+
